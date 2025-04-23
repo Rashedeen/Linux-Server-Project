@@ -34,8 +34,13 @@ This project focuses on setting up a DNS server and an FTP server using Linux Ub
 ### 1. DNS Server Configuration
 Installed Bind9 on the server machine and configured the DNS service. Set up the server's IP address manually and modified DNS settings to create a functioning domain name server for the internal network.
 
-![DNS Setup](images/dns-configuration.png)
+![DNS Setup](ss/bind9.png)
 > **Figure 2:** Bind9 DNS service configuration and network adapter setup.
+
+Setup the DNS server in the interface
+![DNS Setup](ss/DNS_config.png)
+> **Figure 3:** Setup the DNS service interface.
+
 
 ---
 
