@@ -23,9 +23,8 @@ This project focuses on setting up a DNS server and an FTP server using Linux Ub
 ## Tools Used
 - Oracle VirtualBox
 - Linux Ubuntu 18.04
-- Windows 11
 - Filezilla FTP Client
-- Cisco Packet Tracer (for basic simulation references)
+
 
 ---
 
