@@ -35,11 +35,23 @@ This project focuses on setting up a DNS server and an FTP server using Linux Ub
 Installed Bind9 on the server machine and configured the DNS service. Set up the server's IP address manually and modified DNS settings to create a functioning domain name server for the internal network.
 
 ![DNS Setup](ss/bind9.png)
-> **Figure 2:** Bind9 DNS service configuration and network adapter setup.
+> **Figure 1:** Bind9 DNS service configuration and network adapter setup.
+
 
 Setup the DNS server in the interface
+
 ![DNS Setup](ss/DNS_config.png)
-> **Figure 3:** Setup the DNS service interface.
+> **Figure 2:** Setup the DNS service interface.
+
+DNS testing
+
+![DNS Setup](ss/DNS_test.png)
+> **Figure 3:** DNS Test.
+
+Ping DNS server from client
+
+![DNS Setup](ss/ping_client.png)
+> **Figure 4:** Ping the server from the client.
 
 
 ---
@@ -47,16 +59,35 @@ Setup the DNS server in the interface
 ### 4. FTP Server Setup
 Installed and configured the vsftpd FTP server on the Linux server. Edited the FTP configuration file, created a dedicated FTP user, and set appropriate access permissions.
 
-![FTP Setup](images/ftp-configuration.png)
-> **Figure 4:** vsftpd FTP server installation and user configuration.
+Download vsftpd to start configuring FTP server
+
+![FTP Setup](ss/vsftpd.png)
+> **Figure 5:** vsftpd FTP server installation and user configuration.
+
+
+Set up the FTP server
+
+![FTP Setup](ss/FTP_config.png)
+> **Figure 6:** vsftpd FTP server installation and user configuration.
+
+
+Create FTP users
+
+![FTP Setup](ss/create_userFTP.png)
+> **Figure 7:** FTP server user configuration.
 
 ---
 
 ### 5. Testing and Verification
 Tested DNS server functionality by pinging the server using the configured domain name. Verified FTP services by logging into the server via Filezilla and transferring files successfully.
 
-![Testing FTP and DNS](images/testing.png)
-> **Figure 5:** Successful DNS resolution and FTP file transfer between server and client.
+
+![FTP Setup](ss/DNS_test.png)
+> **Figure 8:** Successful DNS resolution.
+
+
+![Testing FTP and DNS](ss/testing.png)
+> **Figure 9:** FTP file transfer between server and client.
 
 ---
 
