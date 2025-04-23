@@ -12,6 +12,23 @@ This project focuses on setting up a DNS server and an FTP server using Linux Ub
 
 ---
 
+## Key Outcomes
+- Successfully configured a working DNS server on Linux Ubuntu.
+- Set up FTP services allowing secure file sharing between devices.
+- Achieved domain-based communication, reducing dependency on static IP addresses.
+- Validated the setup through practical tests using Filezilla and terminal-based transfers.
+
+---
+
+## Tools Used
+- Oracle VirtualBox
+- Linux Ubuntu 18.04
+- Windows 11
+- Filezilla FTP Client
+- Cisco Packet Tracer (for basic simulation references)
+
+---
+
 ## Project Steps
 
 ### 1. DNS Server Configuration
